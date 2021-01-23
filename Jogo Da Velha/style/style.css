@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: white;
+    background: rgb(0, 0, 0);
+}
+
+img{
+    width: 50%;
+    padding-top: 16%;
+    padding-left: 23%;
+}
+
+#container{
+    background-color:white;
+    margin: auto;
+    margin-top: 10vh;
+    width: 50rem;
+    height: 80vh;
+    display: grid;
+    grid-template: 1fr 1fr 1fr / 1fr 1fr 1fr;
+    gap: 10px 10px;
+}
+
+.square{
+    background: olivedrab;
+}
+
+#hidden{
+    width: 100%;
+    height: 100vh;
+    background-color: blue;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+
+.botao{
+    width: 8%;
+    height: 6%;
+    border-radius: 15px;
+    font-size: 20px;
+    box-shadow: 2px 1px 1px black;
+    background-color: yellow;
+}
