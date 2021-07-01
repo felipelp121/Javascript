@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Righteous&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Jogo da Memoria</title>
+</head>
+<body>
+    <div class="scoreBoard">
+        <div id="tempo">TEMPO: 0s</div>
+        <div id="acerto">ACERTOS: 0</div>
+        <div id="erro">ERROS: 0</div>
+    </div>
+    <div id="gameBoard">
+<!--     
+        <div id="aosuhidj" class="card">
+            <div class="card_front">
+                <img class="icon" src="./images/bootstrap.png">
+            </div>
+
+            <div class="card_back">
+                &lt/&gt
+            </div>
+        </div> -->
+    </div>
+    <div id="gameOver">
+        <div>
+            <p>Parabéns, você completou o jogo!</p>
+            <div id="resultado"></div>
+        </div>
+
+        <button id="restart" onclick="restart()">Jogue Novamente</button>
+    </div>
+    <script src="./main.js"></script>
+</body>
+</html>
